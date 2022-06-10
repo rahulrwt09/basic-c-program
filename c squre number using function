@@ -1,0 +1,21 @@
+// take something return nothing
+#include<stdio.h>
+int main(){
+  int a; // first initialize  variable 
+  void sqr(int); //declear the function 
+  printf("enter a number for squre"); 
+  scanf("%d", &a);
+  sqr(a); //pass value in sqr varibale
+  
+  
+
+  }
+void sqr(b) /* call sqr variable and copy the variable data in this squre variable  */
+{
+  int c; 
+  c=b*b;
+  printf("squre of entered number is %d",c);
+  
+}
+  
+  
