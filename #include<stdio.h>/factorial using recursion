@@ -1,0 +1,21 @@
+//                                   normal program   //
+   #include<stdio.h>
+// factorial using c 
+int main()
+{ 
+  int num, i , fact=1;
+  printf("enter number for factorial");
+  scanf("%d",&num);
+ for(i =1;i<=num;i++)
+   {
+   fact=fact*i;
+   }
+   printf("%d" ,fact);
+  
+}
+
+
+//                                   factorial using recursion                                                 //
+
+
+
