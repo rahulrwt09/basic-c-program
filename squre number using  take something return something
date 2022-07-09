@@ -1,0 +1,26 @@
+/******************************************************************************
+squre number using  take something return something 
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main(){
+       int swap();
+       int x , y; 
+       printf("enter number for squre");
+       scanf("%d", &x);
+       
+       y = swap(x);
+       printf("%d",y);
+
+    
+    
+}
+int swap (int a)
+{
+     a=a*a;
+     
+ 
+     return a;
+}
