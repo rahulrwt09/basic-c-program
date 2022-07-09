@@ -1,0 +1,28 @@
+/******************************************************************************
+swap two number  using  take something return nothing function 
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main(){
+       int swap();
+       int x, y ; 
+       printf("enter two number");
+       scanf("%d %d", &x, &y);
+       
+       swap(x, y);
+
+    
+    
+}
+int swap (int a, int b)
+{
+     int c;
+    
+      c=a;
+      a=b;
+      b=c;
+     
+     printf("%d %d", a, b);
+}
