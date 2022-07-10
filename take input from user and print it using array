@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+
+{
+    
+int arr[5], i;
+for(i=0;i<5;i++){
+printf("enter number for array");
+scanf("%d",&arr[i]);
+}
+
+printf("given number is");
+for(i=0;i<5;i++){
+printf("%d",arr[i]);
+}
+}
