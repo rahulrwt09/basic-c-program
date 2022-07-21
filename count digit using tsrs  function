@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{   
+int a;
+int cnt();
+cnt(a);
+   
+}
+cnt(int x){
+int count=0;
+    
+      printf("enter the number");
+      scanf("%d",&x);
+    
+       while(x!=0){
+      x=x/10;
+      count++;
+       }
+      printf("%d", count);
+}
